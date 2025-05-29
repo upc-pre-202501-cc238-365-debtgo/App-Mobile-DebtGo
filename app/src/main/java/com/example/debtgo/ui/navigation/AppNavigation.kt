@@ -370,8 +370,8 @@ fun AppNavigation(navController: NavHostController) {
 
         composable("edit_service_list") {
             val services = listOf(
-                Service(1, "Consultoría Financiera", "Ayuda personalizada sobre finanzas", listOf("S/ 100", "S/ 150"), false),
-                Service(2, "Asesoría de Créditos", "Consejos sobre préstamos bancarios", listOf("S/ 80"), true)
+                Service(1, "Financial Consulting", "Personalized financial help", listOf("$100", "$180"), false),
+                Service(2, "Credit Counseling", "Bank Loan Advice", listOf("$120"), true)
             )
 
             EditServiceListScreen(
