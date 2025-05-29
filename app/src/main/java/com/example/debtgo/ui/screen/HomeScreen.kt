@@ -392,8 +392,8 @@ fun DebtGoBottomNavigation(navController: NavController) {
 
         // Nueva pestaña Educación
         NavigationBarItem(
-            icon = { Icon(Icons.Outlined.School, contentDescription = "Educación") },
-            label = { Text("Educación") },
+            icon = { Icon(Icons.Outlined.School, contentDescription = "Education") },
+            label = { Text("Education") },
             selected = currentRoute == Screen.Education.route,
             onClick = { navController.navigate(Screen.Education.route) }
         )
